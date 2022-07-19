@@ -14,7 +14,7 @@ exports.config = {
     waitforTimeout: 12000,
     connectionRetryTimeout: 100000,
     connectionRetryCount: 3,
-    specs: ['tests/features/**/*.feature'],
+    specs: ['tests/features/main/**/*.feature'],
     reporters: [
         'spec',
         [
